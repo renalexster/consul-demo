@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: sa
+    url: jdbc:h2:mem:local-demo
+  jpa:
+    show-sql: true
+logging:
+  level:
+    org.hibernate.SQL: debug
